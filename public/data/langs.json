@@ -1,0 +1,153 @@
+{
+  "en": {
+    "nav": {
+      "home": "Home",
+      "listings": "Listings",
+      "about": "About",
+      "contact": "Contact"
+    },
+
+    "hero": {
+      "title": "Find Your Next Home in Cambodia",
+      "subtitle": "Affordable rooms, apartments, and houses for rent and sale.",
+      "search": "Search Properties"
+    },
+
+    "filters": {
+      "purpose": "Purpose",
+      "purpose_rent": "Rent",
+      "purpose_buy": "Buy",
+
+      "type": "Type",
+      "type_any": "Any type",
+      "type_room": "Room",
+      "type_apartment": "Apartment",
+      "type_house": "House",
+
+      "city": "City",
+      "price_range": "Price Range"
+    },
+
+    "listing": {
+      "featured_properties": "Featured Properties",
+      "no_results": "No properties found.",
+      "load_more": "Load More"
+    },
+
+    "property": {
+      "details": "Property Details",
+      "price": "Price",
+      "per_month": "per month",
+      "bedrooms": "Bedrooms",
+      "bathrooms": "Bathrooms",
+      "area": "Area",
+      "contact_agency": "Contact Agency",
+      "available": "Available",
+      "not_available": "Not Available",
+      "for_sale": "For Sale"
+    },
+
+    "contact": {
+      "title": "Contact Us",
+      "name": "Your Name",
+      "email": "Your Email",
+      "message": "Message",
+      "send": "Send Message",
+      "success": "Message sent successfully!"
+    },
+
+    "about": {
+      "title": "About KH Realty",
+      "mission": "We help Cambodians find affordable and comfortable places to live.",
+      "agencies": "Our Partner Agencies"
+    },
+
+    "ui": {
+      "language": "Language",
+      "english": "English",
+      "khmer": "Khmer",
+      "back": "Back",
+      "view_details": "View Details"
+    },
+
+    "footer": {
+      "copyright": "© 2025 KH Realty. All rights reserved."
+    }
+  },
+
+  "km": {
+    "nav": {
+      "home": "ទំព័រដើម",
+      "listings": "ប្រភេទអចលនទ្រព្យ",
+      "about": "អំពីពួកយើង",
+      "contact": "ទំនាក់ទំនង"
+    },
+
+    "hero": {
+      "title": "ស្វែងរកលំនៅដ្ឋានបន្ទាប់របស់អ្នកនៅកម្ពុជា",
+      "subtitle": "បន្ទប់ អាផាតមិន និងផ្ទះ អាចជួល ឬទិញបានក្នុងតម្លៃសមរម្យ។",
+      "search": "ស្វែងរកអចលនទ្រព្យ"
+    },
+
+    "filters": {
+      "purpose": "គោលបំណង",
+      "purpose_rent": "ជួល",
+      "purpose_buy": "ទិញ",
+
+      "type": "ប្រភេទ",
+      "type_any": "គ្រប់ប្រភេទ",
+      "type_room": "បន្ទប់",
+      "type_apartment": "អាផាតមិន",
+      "type_house": "ផ្ទះ",
+
+      "city": "ខេត្ត/ទីក្រុង",
+      "price_range": "ជួរតម្លៃ"
+    },
+
+    "listing": {
+      "featured_properties": "អចលនទ្រព្យពិសេស",
+      "no_results": "មិនមានអចលនទ្រព្យទេ។",
+      "load_more": "បង្ហាញបន្ថែម"
+    },
+
+    "property": {
+      "details": "ព័ត៌មានលម្អិតអចលនទ្រព្យ",
+      "price": "តម្លៃ",
+      "per_month": "ក្នុងមួយខែ",
+      "bedrooms": "បន្ទប់គេង",
+      "bathrooms": "បន្ទប់ទឹក",
+      "area": "ផ្ទៃក្រឡា",
+      "contact_agency": "ទាក់ទងក្រុមហ៊ុន",
+      "available": "មាន",
+      "not_available": "មិនមានទេ",
+      "for_sale": "លក់"
+    },
+
+    "contact": {
+      "title": "ទាក់ទងមកយើង",
+      "name": "ឈ្មោះរបស់អ្នក",
+      "email": "អ៊ីមែលរបស់អ្នក",
+      "message": "សារ",
+      "send": "ផ្ញើសារ",
+      "success": "សាររបស់អ្នកបានផ្ញើរួចរាល់!"
+    },
+
+    "about": {
+      "title": "អំពី KH Realty",
+      "mission": "យើងជួយប្រជាជនកម្ពុជា ស្វែងរកកន្លែងរស់នៅមានតម្លៃសមរម្យ និងមានផាសុខភាព។",
+      "agencies": "ក្រុមហ៊ុនដៃគូរបស់យើង"
+    },
+
+    "ui": {
+      "language": "ភាសា",
+      "english": "ភាសាអង់គ្លេស",
+      "khmer": "ភាសាខ្មែរ",
+      "back": "ត្រឡប់ក្រោយ",
+      "view_details": "មើលព័ត៌មានលម្អិត"
+    },
+
+    "footer": {
+      "copyright": "© 2025 KH Realty. រក្សាសិទ្ធិគ្រប់យ៉ាង។"
+    }
+  }
+}

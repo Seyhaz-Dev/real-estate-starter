@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "title": {
+      "en": "Modern Apartment near AEON Mall",
+      "km": "អាផាតមិនទំនើបនៅជិត AEON Mall"
+    },
+    "type": "apartment",
+    "purpose": "rent",
+    "price": 350,
+    "currency": "USD",
+    "location": {
+      "city": "Phnom Penh",
+      "district": "Chamkarmon",
+      "address": "Street 271, Tonle Bassac"
+    },
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "area": 65,
+    "unit": "m²",
+    "images": ["images/apartment1_1.jpg", "images/apartment1_2.jpg"],
+    "features": ["Air Conditioning", "Balcony", "Parking"],
+    "agency_id": 101,
+    "posted_date": "2025-11-10",
+    "available": true
+  },
+  {
+    "id": 2,
+    "title": {
+      "en": "Cozy Room for Students near ITC",
+      "km": "បន្ទប់សម្រាប់និស្សិតនៅជិតវិទ្យាស្ថានបច្ចេកវិទ្យាកម្ពុជា"
+    },
+    "type": "room",
+    "purpose": "rent",
+    "price": 80,
+    "currency": "USD",
+    "location": {
+      "city": "Phnom Penh",
+      "district": "Toul Kork",
+      "address": "Street 598"
+    },
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "area": 20,
+    "unit": "m²",
+    "images": ["images/room1_1.jpg"],
+    "features": ["Fan", "Shared Bathroom"],
+    "agency_id": 102,
+    "posted_date": "2025-11-09",
+    "available": false
+  }
+]
