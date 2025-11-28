@@ -63,6 +63,7 @@ img {
 .hero__card {
   background: linear-gradient(180deg, #fbf8f5, #f6f2ee);
   border: 1px solid var(--line);
+  height: 300px;
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   padding: 18px;
@@ -95,6 +96,7 @@ img {
   border: 1px solid var(--line);
   border-radius: 12px;
   background: #fff;
+  margin-top: 70px;
   font-family: var(--font-family);
 }
 
