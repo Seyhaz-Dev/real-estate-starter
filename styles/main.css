@@ -47,32 +47,40 @@ a {
 img {
   max-width: 100%;
   display: block;
-  border-radius: 12px;
 }
 
 .container {
   max-width: var(--maxw);
   margin: auto;
-  padding-inline: 16px;
+  /* padding-inline: 16px; */
 }
 .hero {
-  padding: 16px;
+  padding:px;
+  width: 100%;
 }
 
 .hero__card {
   background: linear-gradient(180deg, #fbf8f5, #f6f2ee);
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-  box-shadow: var(--shadow);
-  padding: 200px;
-  width: 100%;
-} 
+  /* border: 1px solid var(--line); */
+  /* border-radius: var(--radius); */
+  /* box-shadow: var(--shadow); */
+  position: relative;
+}
 .hero__card img{
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-
+.blank{
+  width: 100%;
+  height: 30%;
+  background-color: #fff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
 .hero__title {
   font-size: 1.35rem;
   /* margin: 0 0 6px; */
