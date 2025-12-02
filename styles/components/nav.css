@@ -1,9 +1,3 @@
-.container {
-    max-width: var(--maxw);
-    margin: auto;
-    padding-inline: 16px;
-}
-
 .nav {
   position: sticky;
   top: 0;
@@ -63,6 +57,7 @@
 .nav--open .nav__list {
   display: block;
 }
+
 .section {
   padding: 14px 16px;
 }
@@ -104,7 +99,7 @@
 }
 
 .section__agents {
-  display: block;
+  
   gap: 12px;
 }
 
@@ -195,6 +190,7 @@
   display: block;
   align-items: center;
   gap: 12px;
+  justify-items: center;
   width: 70%;
   height: 250px;
   background: var(--surface);
@@ -229,6 +225,28 @@
   text-align: center;
 
 }
-.section__title{
-  text-align: center;
+
+
+
+@media screen and (max-width: 768px) {
+  .nav__toggle {
+    display: block;
+  }
+
+  @media screen and (max-width: 768px) {
+  .nav__list {
+    display: none;
+    flex-direction: column;
+    background: #ffffff;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+  }
+}
+
+  .nav__list.show {
+    display: flex;
+  }
 }

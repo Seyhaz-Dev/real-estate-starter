@@ -4,7 +4,10 @@ fetch("../../public/data/properties.json")
   .then((response) => response.json())
   .then((data) => {
     if (data.length > 0) {
+      
       for (let i = 0; i < data.length; i++) {
+        console.log();
+        
         sectionPropertiesElement.innerHTML += `
         <a class="card" href="/pages/property/${data[i].title.en}">
             <img class="card__media" src="https://picsum.photos/640/400?2"
