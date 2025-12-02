@@ -3,6 +3,7 @@
   background: var(--badge);
   border: 1px solid var(--line);
   padding: 4px 8px;
+  color: #fff;
   border-radius: 999px;
   font-size: 0.78rem;
   margin-top: 6px;

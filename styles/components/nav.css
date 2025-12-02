@@ -1,4 +1,8 @@
-
+.container {
+    max-width: var(--maxw);
+    margin: auto;
+    padding-inline: 16px;
+}
 
 .nav {
   position: sticky;
@@ -59,9 +63,78 @@
 .nav--open .nav__list {
   display: block;
 }
+.section {
+  padding: 14px 16px;
+}
+
+.section__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.section__title {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.section__hint {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.section__actions {
+  display: flex;
+  gap: 8px;
+}
+
+.section__link {
+  cursor: pointer;
+}
+
+.section__link:hover {
+  text-decoration: underline;
+}
+
+.card-grid-groups {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.section__agents {
+  display: block;
+  gap: 12px;
+}
+
+.agent {
+  display: block;
+  align-items: center;
+  gap: 12px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 12px;
+}
+
+.agent__avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+
 
 
 @media (min-width: 1024px) {
+  :root {
+    --maxw: 1024px; 
+    --radius: 14px;
+  }
+}
 
   .nav {
     display: flex;
@@ -110,4 +183,52 @@
   .nav__link:hover {
     color: var(--accent);
   }
+
+.section__agents {
+  display: flex;
+  gap: 12px;
+  margin-top: 30px;
+  --maxw: 1024px; 
+  
+}
+.agent {
+  display: block;
+  align-items: center;
+  gap: 12px;
+  width: 70%;
+  height: 250px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 12px;
+}
+.agent__avatar {
+  width: 56px;
+  height: 56px;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.section-container {
+  margin-top: 40px;
+
+}
+
+.section__head {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  
+}
+.section__head p{
+  font-size: 15px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+.section__title{
+  text-align: center;
 }
