@@ -1,0 +1,118 @@
+/* FULLSCREEN DESKTOP WRAPPER */
+.wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+/* SUCCESS CARD — GREEN BACKGROUND */
+.card {
+    background: #E7FEE4; /* light green background */
+    width: 330px;
+    max-width: 600px;
+    margin-top: 30px;
+    padding: 28px 25px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0px 8px 25px rgba(0,0,0,0.15);
+    animation: fadeIn 0.3s ease;
+}
+
+/* SUCCESS ICON */
+.circle-icon {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 18px;
+    font-size: 40px;
+    color: #fff;
+    font-weight: bold;
+}
+.circle-icon.success {
+    background: #27D51B;
+}
+
+/* TEXT */
+.title {
+    font-size: 1.3rem;
+    margin-bottom: 12px;
+    color: #1b5e20;
+}
+
+.message {
+    color: #2b2b2b;
+    font-size: 0.95rem;
+    margin-bottom: 25px;
+    line-height: 1.45rem;
+}
+
+/* BUTTON STYLES */
+.btn {
+    padding: 12px 24px;
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.2s ease;
+    font-weight: 600;
+}
+
+.btn-ok {
+    background: #27D51B;
+    color: #fff;
+}
+.btn-ok:hover {
+    background: #22c119;
+}
+
+.btn-home {
+    background: #ffffff;
+    border: 2px solid #27D51B;
+    color: #27D51B;
+}
+.btn-home:hover {
+    background: #f1fff0;
+}
+
+/* BUTTON ROW */
+.btn-row {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+}
+
+/* DESKTOP FULL WIDTH */
+@media (min-width: 1200px) {
+    .card {
+        width: 100%;
+        max-width: 1200px;
+    }
+}
+
+/* MOBILE */
+@media (max-width: 480px) {
+    .card {
+        width: 100%;
+        padding: 22px 18px;
+    }
+
+    .circle-icon {
+        width: 70px;
+        height: 70px;
+        font-size: 32px;
+    }
+
+    .title { font-size: 1.15rem; }
+    .message { font-size: 0.9rem; }
+
+    .btn-row { flex-direction: column; }
+    .btn { width: 100%; }
+}

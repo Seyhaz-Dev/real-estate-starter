@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>KH Realty — Find Homes in Cambodia</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Affordable rentals and homes in Cambodia." />
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="/styles/scroller.css">
+    <link rel="stylesheet" href="/styles/components/nav.css">
+    <link rel="stylesheet" href="/styles/components/card-top.css">
+    <link rel="stylesheet" href="/styles/components/general.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+    <script src="https://unpkg.com/slim-select@latest/dist/slimselect.js"></script>
+    <link href="https://unpkg.com/slim-select@latest/dist/slimselect.css" rel="stylesheet">
+</head>
+
+<body> 
+
+    <!-- ===== NAV ===== -->
+    <nav class="nav" aria-label="Primary">
+        <div class="nav__bar container">
+            <a class="nav__brand" href="/"><img src="/public/assets/images/logoimage/Pasted image.png" alt=""></a>                                                                                                                                                                          </a>
+            <button class="nav__toggle" aria-expanded="false" aria-controls="navList" id="navToggle">Menu</button>
+        </div>
+        <ul class="nav__list container" id="navList">
+            <li class="nav__item"><a class="nav__link" href="#">Home</a></li>
+            <li class="nav__item"><a class="nav__link" href="/pages/rent/index.html">Rent</a></li>
+            <li class="nav__item"><a class="nav__link" href="/pages/buy/index.html">Buy</a></li>
+            <li class="nav__item"><a class="nav__link" href="/pages/about/">About</a></li>
+            <li class="nav__item"><a class="nav__link" href="/pages/agents/index.html">Agents</a></li>
+            <li class="nav__item"><a class="nav__link" href="/pages/contact/index.html">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="about-hero">
+    <img class="hero-img" src="/public/assets/images/logoimage/3.webp" alt="About Hero Image">
+    <div class="overlay"></div>
+
+    <h1>About Page</h1>
+    <p class="breadcrumb">Home / About Page</p>
+</section>
+
+
+<section class="mission-vision">
+    <div class="mv-card">
+        <div class="mv-icon"><i class="fa-solid fa-xmark"></i></div>
+        <h3>Our Mission</h3>
+        <p>
+            Our mission is to guide buyers and sellers with honesty,
+            expertise, and exceptional service, creating a real estate
+            experience that is simple, transparent, and rewarding for every client.
+        </p>
+    </div>
+
+    <div class="mv-card">
+        <div class="mv-icon"><i class="fa-solid fa-eye"></i></div>
+        <h3>Our Vision</h3>
+        <p>
+            Our vision is to be a trusted leader in real estate by delivering outstanding
+            results, building lasting relationships, and creating positive experiences for every client.
+        </p>
+    </div>
+</section>
+
+<section class="about-section">
+    <h2>About us</h2>
+    <h1>Our Trusted Real Estate Advisors.</h1>
+    <p class="about-text">
+        We are a trusted real estate team delivering honest guidance,
+        market expertise, and exceptional service for a smooth and confident journey.
+    </p>
+
+    <div class="about-gallery">
+        <img src="/public/assets/images/properties/houses/house-2.webp" alt="">
+        <img src="/public/assets/images/properties/shop_houses/shop_house-2.webp" alt="">
+    </div>
+</section>
+ <!-- ===== FOOTER ===== -->
+<footer class="footer">
+    <div class="footer__grid container">
+        <div>
+            <div class="img"><img src="/public/assets/images/logoimage/Pasted image copy.png" alt=""></div><br />
+            <span class="footer__small">Helping Cambodians find homes easily.</span><br />
+            <span class="footer__small">Your trusted partner in property rentals, sales, and real estate guidance across Cambodia.</span>
+        </div>
+        <nav aria-label="Footer">
+            <div class="footer__small">
+                <a href="#">Rent</a> • 
+                <a href="#">Buy</a> • 
+                <a href="#">Agents</a> • 
+                <a href="#">Contact</a> • 
+                <a href="#">About Us</a> • 
+                <a href="#">Privacy Policy</a> • 
+                <a href="#">Terms & Conditions</a>
+            </div>
+        </nav>
+    </div>
+    <div class="container" style="margin-top:10px">
+        <small class="footer__small">© 2025 KH Realty — Delivering reliable real estate services with transparency and care.</small>
+    </div>
+</footer>
+
+<script>
+        const nav = document.querySelector('.nav');
+            const toggle = document.querySelector('.nav__toggle');
+
+            toggle.addEventListener('click', () => {
+            nav.classList.toggle('nav--open');
+            });
+
+    </script>
+    </body>
+
+</html>
+

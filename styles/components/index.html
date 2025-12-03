@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>KH Realty — Find Homes in Cambodia</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Affordable rentals and homes in Cambodia." />
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/components/nav.css">
+    <link rel="stylesheet" href="/styles/scroller.css">
+    <link rel="stylesheet" href="/styles/components/card.css">
+    <link rel="stylesheet" href="/styles/components/card-top.css">
+    <link rel="stylesheet" href="/styles/components/general.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+    <script src="https://unpkg.com/slim-select@latest/dist/slimselect.js"></script>
+    <link href="https://unpkg.com/slim-select@latest/dist/slimselect.css" rel="stylesheet">
+</head>
+
+<body> 
+
+    <!-- ===== NAV ===== -->
+    <nav class="nav" aria-label="Primary">
+        <div class="nav__bar container">
+            <a class="nav__brand" href="/"><img src="/public/assets/images/logoimage/Pasted image copy.png" alt=""></a>                                                                                                                                                                          </a>
+            <button class="nav__toggle" aria-expanded="false" aria-controls="navList" id="navToggle">Menu</button>
+        </div>
+        <ul class="nav__list container" id="navList">
+            <li class="nav__item"><a class="nav__link" href="#">Home</a></li>
+            <li class="nav__item"><a class="nav__link" href="/pages/rent/index.html">Rent</a></li>
+            <li class="nav__item"><a class="nav__link" href="/pages/buy/index.html">Buy</a></li>
+            <li class="nav__item"><a class="nav__link" href="/pages/about/">About</a></li>
+            <li class="nav__item"><a class="nav__link" href="/pages/agents/index.html">Agents</a></li>
+            <li class="nav__item"><a class="nav__link" href="/pages/contact/index.html">Contact</a></li>
+        </ul>
+    </nav>
+        <div class="hero__img">    
+        <div class="hero__img-wrapper">
+            <img src="/public/assets/images/logoimage/3.webp" alt="">
+            <div class="hero__text-overlay">
+                <h1>Your perfect home 
+                    is waiting for you</h1>
+                <p>We have more than 200k properties around to
+                    world to show you <br>Affordable rentals & homes across Cambodia</p>
+            </div>
+            
+             <form class="hero__search-overlay">
+                <div class="input-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input class="hero__input" type="text" placeholder="Search for properties">
+                </div>
+            </form>
+        </div>
+        </div>
+
+    <!-- ===== Featured Properties (Horizontal) ===== -->
+    <section class="section container">
+        <div class="section__head">
+            <h2 class="section__title">Featured Properties</h2>
+        </div>
+
+        <div class="scroller" aria-label="Featured properties">
+            <div class="scroller__track">
+                <!-- Group A -->
+                <div class="scroller__group">
+                    <a class="card" href="/property/1">
+                        <img class="card__media" src="/public/assets/images/properties/villas/villa-2.webp"
+                            alt="Modern apartment near AEON Mall" />
+                        <div class="card__body">
+                           <h3 class="card__title">Modern Apartment — Chamkarmon</h3>
+                            <div class="card__meta">$350 / month • 2BR</div>
+                            <span class="badge">Available</span>
+                        </div>
+                    </a>
+                    <a class="card" href="/property/2">
+                        <img class="card__media" src="/public/assets/images/properties/villas/villa-3.webp"
+                            alt="Cozy student room near ITC" />
+                        <div class="card__body">
+                            <h3 class="card__title">Cozy Student Room — Toul Kork</h3>
+                            <div class="card__meta">$80 / month • 1BR</div>
+                            <span class="badge">Available</span>
+                        </div>
+                    </a>
+                    <a class="card" href="/property/3">
+                        <img class="card__media" src="/public/assets/images/properties/apartments/apartment-3.jpg" alt="Family house in Sen Sok" />
+                        <div class="card__body">
+                            <h3 class="card__title">Family House — Sen Sok</h3>
+                            <div class="card__meta">$78,000 • 3BR</div>
+                            <span class="badge">For Sale</span>
+                        </div>
+                    </a>
+                     <a class="card" href="/property/4">
+                        <img class="card__media" src="/public/assets/images/properties/commercials/commercial-3.webp" alt="Family house in Sen Sok" />
+                        <div class="card__body">
+                            <h3 class="card__title">Family House — Sen Sok</h3>
+                            <div class="card__meta">$78,000 • 3BR</div>
+                            <span class="badge">For Sale</span>
+                        </div>
+                    </a>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Property Categories (Horizontal) ===== -->
+    <section class="section container">
+        <div class="section__head">
+            <h2 class="section__title">Property Categories</h2>
+            <a class="section__link" href="#">Show More</a>
+        </div>
+        <div class="card-grid-groups" aria-label="Property categories">
+            <article class="card-top">
+                <img class="card-top__media" src="/public/assets/images/logoimage/room.jpg" alt="Rooms" />
+                <div class="card-top__body">
+                    <h3 class="card-top__title">Rooms</h3>
+                    <div class="card-top__meta">Budget stays</div>
+                </div>
+            </article>
+            <article class="card-top">
+                <img class="card-top__media" src="/public/assets/images/properties/apartments/apartment-3.jpg" alt="Apartments" />
+                <div class="card-top__body">
+                    <h3 class="card-top__title">Apartments</h3>
+                    <div class="card-top__meta">City living</div>
+                </div>
+            </article>
+            <article class="card-top">
+                <img class="card-top__media" src="/public/assets/images/properties/houses/house-2.webp" alt="Houses" />
+                <div class="card-top__body">
+                    <h3 class="card-top__title">Houses</h3>
+                    <div class="card-top__meta">Family homes</div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- ===== Latest Properties (Horizontal) ===== -->
+    <section class="section container">
+        <div class="section__head">
+            <h2 class="section__title">Latest Properties</h2>
+            <a class="section__link" href="#">Show More</a>
+        </div>
+        <div class="card-grid-groups" aria-label="Latest properties">
+            <article class="card-top">
+                <img class="card-top__media" src="/public/assets/images/properties/shop_houses/shop_house-3.webp" alt="Studio near BKK1" />
+                <div class="card-top__body">
+                    <h3 class="card-top__title">Studio — BKK1</h3>
+                    <div class="card-top__meta">$250 / month</div>
+                </div>
+            </article>
+            <article class="card-top">
+                <img class="card-top__media" src="/public/assets/images/properties/condos/condo-3.jpg" alt="Condo in Chroy Changvar" />
+                <div class="card-top__body">
+                    <h3 class="card-top__title">Condo — Chroy Changvar</h3>
+                    <div class="card-top__meta">$560 / month</div>
+                </div>
+            </article>
+            <article class="card-top">
+                <img class="card-top__media" src="/public/assets/images/properties/houses/house-3.jpg" alt="Townhouse in Russey Keo" />
+                <div class="card-top__body">
+                    <h3 class="card-top__title">Townhouse — Russey Keo</h3>
+                    <div class="card-top__meta">$120,000</div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- ===== Meet Our Agents (Top 3) ===== -->
+    <section class="section container">
+        <div class="section__head">
+            <h2 class="section__title">Meet Our Agents</h2>
+            <a class="section__link" href="#">Show More</a>
+        </div>
+        <div class="section__agents">
+            <div class="agent">
+                <img class="agent__avatar" src="/public/assets/images/logoimage/nasa.jpg" alt="Agent Srey Pov" />
+                <div>
+                    <div style="text-align: center;margin-top: 20px;"><strong>Phanha</strong> • Sen Sok</div>
+                    <div class="card__meta" style="text-align: center;">Apartments & rooms</div>
+                </div>
+            </div>
+            <div class="agent">
+                <img class="agent__avatar" src="/public/assets/images/logoimage/IU.jpg" alt="Agent Socheata" />
+                <div>
+                    <div style="text-align: center;margin-top: 20px;"><strong>SreyPov</strong> • Chroy Changvar
+                    </div>
+                    <div class="card__meta" style="text-align: center;">Houses & land</div>
+                </div>
+            </div>
+            <div class="agent">
+                <img class="agent__avatar" src="/public/assets/images/logoimage/mes.jpg" alt="Agent Seyha" />
+                <div>
+                    <div style="text-align: center;margin-top: 20px;"><strong>Socheata</strong> • Russey Keo</div>
+                    <div class="card__meta" style="text-align: center;">Budget rentals</div>
+                </div>
+            </div>
+            <div class="agent">
+                <img class="agent__avatar" src="/public/assets/images/logoimage/cr77777.webp" alt="Agent Seyha" />
+                <div>
+                    <div style="text-align: center;margin-top: 20px;"><strong>Seyha</strong> • Sterng meanchey</div>
+                    <div class="card__meta" style="text-align: center;">Studio</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Why Us? + Inquiry Form ===== -->
+    <section class="section container">
+        <div class="container why">
+            <h2 class="section__title" style="margin:0 0 8px">Why Choose KH Realty?</h2>
+            <ul class="why__list">
+                <li>Affordable options for students and workers</li>
+                <li>Bilingual support (Khmer & English)</li>
+                <li>Verified agents across key districts</li>
+            </ul>
+
+            <h2 class="section__title" style="margin:0 0 8px">Inquiry Form</h2>
+            <form class="inquiry form" action="#">
+                <div class="form__group">
+                    <label for="inq-name">Your name</label>
+                    <input class="input" id="inq-name" type="text" placeholder="Sem Seyha" required>
+                </div>
+                <div class="form__group">
+                    <label for="inq-email">Email</label>
+                    <input class="input" id="inq-email" type="email" placeholder="Phanha168@gmail.com" required>
+                </div>
+                <div class="form__group">
+                    <label for="inq-msg">Message</label>
+                    <textarea class="input" id="inq-msg" rows="3" placeholder="What are you looking for?"></textarea>
+                </div>
+                <button class="btn" type="submit">Send Inquiry</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- ===== Testimonials (Horizontal) ===== -->
+    <section class="section container">
+        <div class="section__head">
+            <h2 class="section__title">Testimonials</h2>
+        </div>
+        <div class="scroller">
+            <div class="scroller__track">
+                <div class="scroller__group" id="testimonials" aria-label="Testimonials">
+                    <blockquote class="quote card">
+                        <p>“Found a clean room near campus in 2 days. Love the Khmer support.”</p>
+                        <div class="quote__name">— Sopheak, Student</div>
+                    </blockquote>
+                    <blockquote class="quote card">
+                        <p>“Great agents and fair prices. Easy on mobile.”</p>
+                        <div class="quote__name">— Phanha, Receptionist</div>
+                    </blockquote>
+                    <blockquote class="quote card">
+                        <p>“Transparent listings and quick replies.”</p>
+                        <div class="quote__name">— Socheata, Technician</div>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- ===== Social + Subscribe ===== -->
+        <section class="section container">
+            <div class="container subscribe">
+                <h2 class="section__title" style="margin:0">Stay in the loop</h2>
+                <p class="section__hint">Latest affordable listings, once a week</p>
+
+                <div class="subscribe__row">
+                    <input class="input" type="email" placeholder="Enter your email" aria-label="Email">
+                    <button class="btn" type="button">Subscribe</button>
+                </div>
+
+                <div class="section__actions" style="margin-top:10px">
+                    <a class="pill" href="https://facebook.com" target="_blank" aria-label="Facebook">Facebook</a>
+                    <a class="pill" href="https://t.me/Arhazguler" target="_blank" aria-label="Telegram">Telegram</a>
+                    <a class="pill" href="https://youtube.com/@funsideup-i5m?si=RrmFiBV9YWCFj_Gv" target="_blank" aria-label="YouTube">YouTube</a>
+                </div>
+            </div>
+        </section>
+
+
+   <!-- ===== FOOTER ===== -->
+<footer class="footer">
+    <div class="footer__grid container">
+        <div>
+            <div class="img"><img src="/public/assets/images/logoimage/Pasted image copy.png" alt=""></div><br />
+            <span class="footer__small">Helping Cambodians find homes easily.</span><br />
+            <span class="footer__small">Your trusted partner in property rentals, sales, and real estate guidance across Cambodia.</span>
+        </div>
+        <nav aria-label="Footer">
+            <div class="footer__small">
+                <a href="#">Rent</a> • 
+                <a href="#">Buy</a> • 
+                <a href="#">Agents</a> • 
+                <a href="#">Contact</a> • 
+                <a href="#">About Us</a> • 
+                <a href="#">Privacy Policy</a> • 
+                <a href="#">Terms & Conditions</a>
+            </div>
+        </nav>
+    </div>
+    <div class="container" style="margin-top:10px">
+        <small class="footer__small">© 2025 KH Realty — Delivering reliable real estate services with transparency and care.</small>
+    </div>
+</footer>
+
+
+    <script>
+        // Mobile nav toggle
+        const nav = document.querySelector('.nav');
+        const navToggle = document.getElementById('navToggle');
+        navToggle?.addEventListener('click', () => {
+            const open = nav.classList.toggle('nav--open');
+            navToggle.setAttribute('aria-expanded', String(open));
+            console.log(String(open));
+        });
+
+        // Select
+        new SlimSelect({
+            select: '#selectPurpose'
+        })
+
+        new SlimSelect({
+            select: '#selectType'
+        })
+    </script>
+
+    <script src="/scripts/scroller.js"></script>
+    <script src="/scripts/index.js"></script>
+</body>
+
+</html>
