@@ -50,9 +50,10 @@ img {
 }
 
 .container {
-  max-width: var(--maxw);
+  /* max-width: var(--maxw);1 */
   margin: auto;
   /* padding-inline: 16px; */
+  
 }
 .hero {
   width: 100%;
@@ -68,7 +69,7 @@ img {
 }
 .hero__card img{
   width: 100%;
-  height: 0%;
+  height: 100%;
   object-fit: cover;
 }
 .hero__title {
@@ -272,6 +273,10 @@ img {
   object-fit: cover;
   border-radius: 10px;
 }
+:root {
+    --maxw: 1200px;
+    --radius: 14px;
+  }
 .p{
   padding: 15px ;
   display: flex;
@@ -387,13 +392,65 @@ img {
   background-color: #fff;
 }
 
-@media (min-width: 1024px) {
-  :root {
-    --maxw: px; 
-    --radius: 14px;
+  
+
+
+@media screen and (max-width: 768px) {
+  .p{
+    padding: 15px;
+  
+  }
+  .agent {
+    width: 75%;
+    gap: 12px;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    padding: 12px 16px;
+  }
+  .why {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    padding: 14px;
+  }
+  .why__list {
+    list-style: disc;
+    margin: 8px 0 12px 18px;
+    color: var(--muted);
+  }
+  .quote {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    padding: 12px;
+    font-size: 0.95rem;
+    margin: 0;
+  }
+
+  .quote__name {
+    margin-top: 8px;
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+
+  .subscribe {
+    background: linear-gradient(180deg, #f9f5f1, #f4efe9);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    padding: 16px;
+  }
+
+  .subscribe__row {
+    display: flex;
+    gap: 8px;
+    margin-top: 8px;
   }
 }
-
 
 
 
